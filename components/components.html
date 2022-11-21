@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
+  <title>Components</title>
+</head>
+<body>
+
+  <!--Userlist Topbar-->
+  <article class="userlist">
+    <nav class="userlist__nav">
+      <a href="#">Planering</a>
+      <a href="#">Dashboard</a>
+      <a href="#" class="active">Kursvy</a>
+      <a href="#">Bedömning</a>
+    </nav>
+  </article>
+
+  <!--Lesson Header-->
+  <article class="lesson-header">
+    <section class="lesson__module">
+      <h2 class="lesson__module--number">01</h2>
+      <h5 class="lesson__module--days">2 studiedagar</h5>
+    </section>
+    <section class="lesson__goals">
+      <h2 class="lesson__goals--heading">Mål med modul
+      </h2>
+      <p class="lesson__goals--goal"><span class="bg">1</span> Paradigm shift series A financing social media startup backing android.</p>
+      <p class="lesson__goals--goal"><span class="bg">2</span> Paradigm shift series A financing social media startup backing android.</p>
+    </section>
+  </article>
+
+  <!--Activity Self Assessment-->
+  <article class="activity-self-assessment">
+    <p class="activity-self-assessment__option active">ej påbörjat</p>
+    <p class="activity-self-assessment__option">Förstår inte</p>
+    <p class="activity-self-assessment__option">förstår delvis</p>
+    <p class="activity-self-assessment__option">förstår helt</p>
+  </article>
+
+  <!--Link-->
+  <article class="link box">
+    <a href="#">
+      <img src="../images/videocam-outline.png">
+      <p class="link__activity">Super awesome video</p>
+    </a>
+  </article>
+
+  <!--Module Goals-->
+  <article class="module__goal box">
+    <p class="link__activity">Här står ett väldigt konkret modulmål som kan vara ganska långt beskrivet</p>
+  </article>
+  <article class="module__goal box">
+    <p class="link__activity">Här står ett väldigt konkret modulmål </p>
+  </article>
+  <article class="module__goal box">
+    <p class="link__activity">Kort modulmål </p>
+  </article>
+
+  <!--Course Card-->
+  <article class="course-card">
+    <div class="course-card__img"></div>
+    <h5>En awesome kurs i grejer</h5>
+    <p>med Lärare lärarsson</p>
+    <nav class="course-card__nav">
+      <a href="#" class="active">Planera</a>
+      <a href="#">Kursvy</a>
+      <a href="#">Översikt</a>
+      <a href="#">Bedömning</a>
+    </nav>
+  </article>
+
+  <!--Lesson-->
+  <article class="lesson lesson--purple">
+    <section class="lesson__module lesson__module--date">
+      <h2 class="lesson__module--number">1.2</h2>
+      <div class="lesson__module--time">
+        <img src="../images/calendar-outline.png">
+        <p class="lesson__module--details"><span class="bold">3 okt.</span> 09.00 16.00<br><span class="small">@zoom</span></p>
+      </div>
+    </section>
+    <section class="lesson__goals">
+        <h2 class="lesson__goals--heading">Tillgänglighet - en grundläggande rättighet</h2>
+        <article class="module__goal box">
+          <p class="link__activity">Här står ett väldigt konkret modulmål som kan vara ganska långt beskrivet</p>
+        </article>
+        <p class="lesson__details--info">Responsive web design agile development funding MVP alpha channels. User experience beta branding supply chain social proof scrum project ramen influencer hypotheses termsheet.</p>
+        <section class="links">
+          <article class="link box">
+            <a href="#">
+              <img src="../images/document-outline.png">
+              <p class="link__activity">PDF artikel om bananböjning</p>
+            </a>
+          </article>
+          <article class="link box">
+            <a href="#">
+              <img src="../images/videocam-outline.png">
+              <p class="link__activity">Super awesome video</p>
+            </a>
+          </article>
+        </section>
+        <article class="activity-self-assessment">
+          <p class="activity-self-assessment__option active">ej påbörjat</p>
+          <p class="activity-self-assessment__option">Förstår inte</p>
+          <p class="activity-self-assessment__option">förstår delvis</p>
+          <p class="activity-self-assessment__option">förstår helt</p>
+        </article>
+      </section>
+
+  </article>
+
+  <!--Toggle Done-->
+  <article class="toggle-done">
+    <input type="range" min="0" max="1" class="toggle-done__range">
+    <p class="toggle-done__text">Fäll ihop avklarade Moduler och Aktiviteter</p>
+  </article>
+
+  <!--Button-->
+  <button class="btn"><p>Ok, klar!</p></button>
+  
+  <!--Slider Self Assessment-->
+  <article class="slider-self-assessment">
+    <h5 class="slider-self-assessment__goal">Lorem ipsum dolor sit amet, consectetu</h5>
+    <section class="slider-self-assessment__radio">
+      <p class="slider-self-assesment__small-text">förstår inte</p>
+      <input type="range" class="slider-self-assessment__range">
+      <p class="slider-self-assesment__small-text">Förstår allt</p>
+    </section>
+  </article>
+
+</body>
+</html>
